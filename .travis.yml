@@ -1,12 +1,11 @@
 # https://travis-ci.org/HearthSim/django-reflinks
+dist: xenial
 language: python
 
-python: "3.6"
+python: "3.9"
 
 env:
-  - TOXENV=py36-django20
-  - TOXENV=py36-django21
-  - TOXENV=py36-djangomaster
+  - TOXENV=py39-django32
   - TOXENV=flake8
 
 matrix:
